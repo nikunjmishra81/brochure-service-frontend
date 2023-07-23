@@ -1,0 +1,16 @@
+{
+  "name": "Bonial - Brochure search",
+  "short_name": "Brochure search",
+  "description": "Server side rendering FE For Brochure search",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#5cb85c",
+  "background_color": "#ffffff",
+  "start_url": "/",
+  "display": "standalone"
+}

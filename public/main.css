@@ -1,0 +1,270 @@
+.logo-font {
+  font-family: titilliumweb, sans-serif;
+}
+html {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 100px;
+} /*!*Bootstrapv4.0.0-alpha.2(http://getbootstrap.com)
+*Copyright2011-2016Twitter,Inc.
+*LicensedunderMIT(https://github.com/twbs/bootstrap/blob/master/LICENSE)*/ /*!normalize.csscommitfe56763|MITLicense|github.com/necolas/normalize.css*/
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background-color: transparent;
+}
+a:active {
+  outline: 0;
+}
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1pxdotted;
+}
+b,
+strong {
+  font-weight: 700;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em0;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em40px;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+.tag-listi {
+  font-size: 0.6rem;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.navbar-paper {
+  background-color: white;
+  padding-left: 0rem;
+  padding-right: 8rem;
+}
+.navbar-typography {
+  color: #545454;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding-left: 2rem;
+  position: relative;
+  text-align: left;
+  text-transform: none;
+  user-select: none;
+}
+.navbar-grid-image-alignment {
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+}
+.main-grid-city-product-form {
+  background-image: url('https://corporate.bonial.com/hubfs/Bonial-DE/Products/background-hero-product.svg');
+  background-size: cover;
+  background-position: centerbottom;
+  background-repeat: no-repeat;
+  height: 30rem;
+}
+.city-form-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center !important;
+  height: inherit !important;
+}
+.search-city-typo {
+  margin: 0;
+  font-family: 'Spartan,sans-serif';
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.334;
+  letter-spacing: 0em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+.search-button {
+  font-family: 'Spartan,sans-serif';
+  width: 80%;
+  margin-top: 1rem;
+  background-color: #009347;
+}
+.city-descp-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.search-icon {
+  margin-left: 0.2rem;
+  font-size: 1.2rem;
+}
+.css-irtz8t {
+  height: 2.8rem;
+}
+.set-margin {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.divider-grid-container {
+  height: 10rem;
+  padding: 2.5rem0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.divider-grid-typo {
+  font-family: 'Spartan,sans-serif' !important;
+  color: #3b3b3b;
+  font-weight: 500;
+  line-height: 3.8rem;
+  position: relative;
+  text-align: center;
+}
+.search-brochure-button {
+  font-family: 'Spartan,sans-serif';
+  background-color: #009347;
+}
+.brochure-search-main-grid-background {
+  background-image: url(https://cdn2.hubspot.net/hubfs/3896573/Page%20recrutement/bg-recrutement-bonial.svg);
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 5rem;
+}
+.pagination-component-grid {
+  padding-left: 1rem;
+  display: flex;
+  padding-top: 3rem !important;
+  justify-content: center !important;
+}
+.brochure-search-fields-grid {
+  display: flex;
+  justify-content: center;
+}
+.brochure-search-fields-main-grid {
+  height: max-content;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+.brochure-search-button-grid {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  height: 2.5rem;
+}
+.empty-grids {
+  height: 20rem;
+}
+.publisher-details-typo {
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+.common-font-family {
+  font-family: 'Spartan,sans-serif';
+  color: #00000099 !important;
+}
+.publishar-details {
+  font-size: 1.1rem;
+}
+.brochure-data-card-grid {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.brochure-data-card {
+  max-width: 88%;
+  border-radius: 2rem;
+}
+.brochure-cards-main-grid {
+  height: max-content;
+  margin-top: 1rem;
+}
+.brochure-cards-individual-grid {
+  width: 100%;
+  margin-top: 1rem;
+}
+.brochure-cards-skeleton-grid {
+  margin-bottom: 0.75rem;
+}
