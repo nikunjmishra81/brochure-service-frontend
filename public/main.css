@@ -268,3 +268,14 @@ pre,
 .brochure-cards-skeleton-grid {
   margin-bottom: 0.75rem;
 }
+.MuiCardHeader-title {
+  font-family: 'Spartan,sans-serif';
+  color: #0009 !important;
+  font-weight: bold;
+}
+.main-card {
+  width: 23rem;
+  height: 21rem;
+  border-radius: 1.5rem;
+  margin-top: 1rem;
+}

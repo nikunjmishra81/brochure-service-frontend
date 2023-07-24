@@ -18,5 +18,7 @@ export const LabelContants = {
   NO_DATA_FOR_THIS_CITY_AND_PRODUCT: 'No data found for this city & product',
   NO_DATA_FOR_PRODUCT: 'No data found for this product',
   DATA_FETCHED_SUCCESSFULLY: 'Successfully fetched data for this city & product',
-  NO_BROCHURES_FOUND: 'No Brochures found'
+  NO_BROCHURES_FOUND: 'No Brochures found',
+  CITY_DETAILS: 'City Details',
+  PRODUCT_DETAILS: 'Product Details '
 }

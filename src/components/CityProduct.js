@@ -151,17 +151,19 @@ export default function CityProudctForm(props) {
         </Grid>
         <Grid item container className="city-descp-grid" lg={8} md={4} sm={6}>
           <CityProudctInfoCards
+            titleHeader={LabelContants.CITY_DETAILS}
             loading={loadingData}
             header={`${LabelContants.ABOUT_CITY}  ${city?.name || 'Not found'}`}
-            imageURI={checkIfImageURL(city?.url) ? city?.url : '/default-city-image.jpeg'}
+            imageURI={checkIfImageURL(city?.url) ? city?.url : '/default-city-image-2.jpeg'}
             descp={city?.description}
             Component={PlaceIcon}
             onChange={e => setCityName(e.target.value)}
           ></CityProudctInfoCards>
           <CityProudctInfoCards
+            titleHeader={LabelContants.PRODUCT_DETAILS}
             loading={loadingData}
             header={`${LabelContants.ABOUT_PRODUCT}  ${product?.name || 'Not found'}`}
-            imageURI={checkIfImageURL(product?.url) ? product?.url : '/default-product-image.jpeg'}
+            imageURI={checkIfImageURL(product?.url) ? product?.url : '/default-product-image.webp'}
             descp={product?.description}
             Component={CategoryIcon}
             onChange={e => setProductName(e.target.value)}
