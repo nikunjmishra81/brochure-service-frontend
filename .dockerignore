@@ -1,0 +1,7 @@
+node_modules/
+.next
+.eslintignore
+.gitigore
+.prettierignore
+.prettierrc
+.yarn.lock
